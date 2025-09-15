@@ -1,0 +1,101 @@
+[
+  {
+    "ContainingType": "Task1.Controllers.EmployeesController",
+    "Method": "GetallEmplyees",
+    "RelativePath": "api/Employees",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Task1.Controllers.EmployeesController",
+    "Method": "CreateNewEmp",
+    "RelativePath": "api/Employees",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ssn",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "F",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "L",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "s",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Task1.Controllers.EmployeesController",
+    "Method": "UpdateEmpSalary",
+    "RelativePath": "api/Employees",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ssn",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "e",
+        "Type": "Task1.Data.Employee",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Task1.Controllers.EmployeesController",
+    "Method": "DeleteEmp",
+    "RelativePath": "api/Employees/SSN",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ssn",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Task1.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Task1.WeatherForecast, Task1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
